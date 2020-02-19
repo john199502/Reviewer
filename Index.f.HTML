@@ -2,19 +2,21 @@
 <html>
     <head>
         <title>Photographer Reviewer</title>
+        <link rel="stylesheet" href="style.css">
         <meta name="description" content="JCreal Productions is an up and coming photography comampy 
         whos soul focus is to take pitcures that bring out who they are on the inside."><br>
     </head>
         <body>
-            <div id="header"></div>
+            <div id="box-a">
                 <h1>Photographer Reviewer</h1>
                 <h1>JCreal Productions</h1>
                 <h3>John C.</h3>
             </div>
-            <table>
+            <div id="box-a">
+            <table >
                 <thead>
                     <tr>
-                        <th><img src="Cars/Black and Blue.jpg"height="150" width="200"></th>
+                        <th><img src="Cars/Black and Blue.jpg" height="150" width="200"></th>
                         <th><img src="Animals/Puffy.jpg"height="150" width="200"></th>
                     </tr>
                 </thead>
@@ -23,7 +25,9 @@
                         <th><img src="the World/snow white.jpg" height="150" width="200"></th>
                     </tr>
             </table>
-            <hi>Overview</hi>
+            </div>
+            <div id="box-a">
+            <h2>Overview</h2>
             <p>John C. of JCreal productions, is a new photographer to the photographer field.
                 His website <a href="https://www.jcrealproductions.com/">jcrealproductions.com</a> has all his contant.
                 The site its self, is not updated as much as it sound be for a beginer like him. I say this
@@ -32,23 +36,27 @@
                 the pictures are very simplistic. That being said, it would not hurt him to actually put something
                 together the has meaning.
             </p>
-            <p>
+            </div>
+            <div id="container"></div>
+            <h4>
             On his site he has main catagories of pictures. See list below
-            <ul>
+            </h4>
+            <ul style="list-style-type:none">
                 <li>Models</li>
                 <li><img src="Models/jade 1.jpg" height="150" width="200"></li>
                 <li>cars</li>
                 <li><img src="Cars/Dusty Rugged.jpg" height="150" width="200"></li>
                 <li>the World</li>
                 <li><img src="the World/City tower.jpg" height="200" width="135"></li>
-                <li>Animals            </li>
+                <li>Animals            
                 <li><img src="Animals/lacey edit 1.jpg" height="150" width="200"></li>
             </ul>
             </p>
             <form>
-                <li><lable for="decribe"> Comment how you you like John's pictures</lable>
+                <ul style="list-style-type:none">
+                    <li><lable for="decribe"> Comment how you you like John's pictures</lable>
                     <input type="text" id="description" name="description"></li>
-                    <p>Favorite Section of John's Photos</p>
+                    <h3>Favorite Section of John's Photos</h3>
                     <li><lable for="Models"> Models</lable>
                     <input type="radio" value="radio"></li>
                     <li><lable for="Cars"> Cars</lable>
@@ -58,8 +66,8 @@
                     <li><lable for="The World"> The World</lable>
                     <input type="radio" value="radio"></li>
                 </ul>
-                <li>
-                    <p>Best Way to Reach You</p>
+                <ul style="list-style-type:none">
+                    <h3>Best Way to Reach You</h3>
                     <li><lable for="Phone"> Phone</lable>
                     <input type="checkbox" value="checkbox"></li>
                     <li><lable for="Email"> Email</lable>
