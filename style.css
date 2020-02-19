@@ -55,7 +55,10 @@ th {
 
 table{
     margin: 0px;
-    text-align: center;
     display: inline-block;
     width: 170px;
+}
+.sidebar {
+	width: 50%;
+	float: left;
 }
